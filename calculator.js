@@ -26,8 +26,8 @@ function calc(num1, num2, operation) {
 
 window.addEventListener("click", function() {
 	let currentOp = event.target.id;
-	let number1 = document.getElementById("user1").value;
-	let number2 = document.getElementById("user2").value;
+	let number1 = parseInt(document.getElementById("user1").value);
+	let number2 = parseInt(document.getElementById("user2").value);
 	// console.log("numbers", number1, number2);
 	console.log("currentOp", currentOp);
 	console.log("eventtarget", event.target.className);
